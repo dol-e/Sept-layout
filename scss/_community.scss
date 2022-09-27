@@ -1,0 +1,45 @@
+
+.community {
+  .sub_visual {
+    background: url(../img/brand3.jpg); 
+  }
+  .inner {
+    table {
+      width: 100%;
+      border-bottom: 2px solid #111;
+      border-collapse: collapse;
+      margin-bottom: 50px;
+
+      tr {
+        &:nth-of-type(even) {
+          background:  #eee;
+        }
+        &:hover {
+          background: lightcyan;
+        }
+        th {
+          padding: 15px; background: #444; color: #fff;
+          &:nth-of-type(1) {width: 10%;}
+          &:nth-of-type(2) {width: 15%;}
+          &:nth-of-type(3) {width: 20%;}
+        }
+        td {
+          padding: 13px;
+          border-bottom: 1px solid #ddd;
+          text-align: center;
+
+          &:nth-of-type(2) {
+            text-align: left;
+          }
+          &:nth-of-type(3) {
+            font-family: "맑은 고딕";
+          }
+        }
+      }
+    }
+
+    .pagination {
+      width: 100%; text-align: center; 
+    }
+  }
+}
